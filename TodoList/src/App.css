@@ -1,0 +1,45 @@
+.container{
+  width:380px;
+  margin: auto;
+  background-color: aqua;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  margin-top: 44px;
+}
+.inputTask{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container input{
+  width: 70%;
+  padding: 9px;
+  border: none;
+  font-size: 22px;
+  border-radius: 2px;
+}
+.container button{
+  font-size: 22px;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  color: bisque;
+}
+.taskData{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 14px;
+}
+.taskData p{
+  font-size: 23px;
+  margin-left: 8px;
+}
+.taskData #deleteIcon{
+  position: relative;
+  left: -9%;
+  top: 38px;
+  cursor: pointer;
+  font-size: 21px;
+  color: black;
+}
